@@ -1,0 +1,39 @@
+/* Common styling for all scorecards */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.scorecard {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Pseudo class example: Styling even rows differently */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Customize styles based on specific needs for each scorecard */
+.hole-cell {
+    font-weight: bold;
+    color: #008000; /* Green for golf */
+}
+
+.inning-cell {
+    font-weight: bold;
+    color: #ff4500; /* Orange-Red for baseball */
+}
+
+.round-cell {
+    font-weight: bold;
+    color: #000080; /* Navy for board game */
+}
